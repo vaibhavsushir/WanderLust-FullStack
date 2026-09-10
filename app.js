@@ -69,11 +69,6 @@ const sessionOptions = {
 
 app.use(session(sessionOptions));
 
-// app.use((req, res, next) => {
-//     console.log("SESSION ID:", req.sessionID);
-//     console.log("SESSION:", req.session);
-//     next();
-// });
 
 app.use(flash());
 
